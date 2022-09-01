@@ -8,4 +8,4 @@ inherit core-image
 
 IMAGE_FSTYPES = "rpi-sdimg"
 
-IMAGE_INSTALL += " hello openssh"
+IMAGE_INSTALL += " hello openssh temp-check"
