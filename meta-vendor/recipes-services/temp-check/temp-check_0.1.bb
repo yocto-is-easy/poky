@@ -15,7 +15,7 @@ SYSTEMD_SERVICE_${PN} = "temp-check.service"
 
 BB_STRICT_CHECKSUM = "0"
 
-DEPENDS = "lrrp"
+DEPENDS = "midf"
 
 inherit pkgconfig cmake
 
