@@ -20,6 +20,9 @@ DEPENDS = "supervisor"
 inherit pkgconfig cmake
 
 do_install() {
+    install -d ${D}${includedir}
+    install -m 0755 ${S}/include/* ${D}${includedir}
+
     install -d ${D}${bindir}
     install -m 0755 temp-check-service ${D}${bindir}
 
