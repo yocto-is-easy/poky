@@ -6,4 +6,4 @@ LICENSE = "MIT"
 
 inherit mocto-base
 
-IMAGE_INSTALL += " temp-check temp-check-tests"
+IMAGE_INSTALL += " test-executor temp-check temp-check-tests"
