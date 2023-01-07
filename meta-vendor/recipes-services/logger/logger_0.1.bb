@@ -15,7 +15,7 @@ SYSTEMD_SERVICE_${PN} = "logger.service"
 
 BB_STRICT_CHECKSUM = "0"
 
-DEPENDS = "midf"
+DEPENDS = "supervisor"
 
 inherit pkgconfig cmake
 

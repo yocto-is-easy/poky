@@ -15,7 +15,7 @@ SYSTEMD_SERVICE_${PN} = "supervisor.service"
 
 BB_STRICT_CHECKSUM = "0"
 
-DEPENDS = "midf logger"
+DEPENDS = "midf"
 
 inherit pkgconfig cmake
 

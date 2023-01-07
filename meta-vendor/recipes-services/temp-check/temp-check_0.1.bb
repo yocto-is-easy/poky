@@ -15,7 +15,7 @@ SYSTEMD_SERVICE_${PN} = "temp-check.service"
 
 BB_STRICT_CHECKSUM = "0"
 
-DEPENDS = "supervisor"
+DEPENDS = "supervisor logger"
 
 inherit pkgconfig cmake
 
