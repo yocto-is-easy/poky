@@ -1,5 +1,5 @@
-inherit mocto-base
+inherit mocto-network
 
 IMAGE_FSTYPES = "rpi-sdimg"
 
-IMAGE_INSTALL += " plugin-manager"
+IMAGE_INSTALL += " plugin-manager wifi-manager dev-comm-init"
