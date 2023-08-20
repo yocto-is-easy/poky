@@ -6,4 +6,6 @@ LICENSE = "MIT"
 
 inherit mocto-advanced
 
+DISTRO_FEATURES += " wifi"
+
 IMAGE_INSTALL += " "
