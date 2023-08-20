@@ -15,7 +15,7 @@ SYSTEMD_SERVICE_${PN} = "wifi-manager.service"
 
 BB_STRICT_CHECKSUM = "0"
 
-DEPENDS = "supervisor connman connman-client iptables dhcp-server wpa-supplicant"
+DEPENDS = "supervisor spdlog"
 
 inherit pkgconfig cmake
 
