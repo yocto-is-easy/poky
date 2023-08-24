@@ -15,7 +15,7 @@ SYSTEMD_SERVICE_${PN} = "wifi-manager.service"
 
 BB_STRICT_CHECKSUM = "0"
 
-DEPENDS = "supervisor spdlog"
+DEPENDS = "supervisor spdlog boost"
 
 inherit pkgconfig cmake
 
