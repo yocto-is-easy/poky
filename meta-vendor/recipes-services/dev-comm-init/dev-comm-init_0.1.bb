@@ -15,7 +15,7 @@ SYSTEMD_SERVICE_${PN} = "dev-comm-init.service"
 
 BB_STRICT_CHECKSUM = "0"
 
-DEPENDS = "supervisor"
+DEPENDS = "supervisor wifi-manager spdlog"
 
 inherit pkgconfig cmake
 
