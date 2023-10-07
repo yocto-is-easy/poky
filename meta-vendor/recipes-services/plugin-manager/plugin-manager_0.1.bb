@@ -15,7 +15,7 @@ SYSTEMD_SERVICE_${PN} = "plugin-manager.service"
 
 BB_STRICT_CHECKSUM = "0"
 
-DEPENDS = "supervisor i-plugin-manager boost"
+DEPENDS = "supervisor i-plugin-manager boost spdlog"
 
 inherit pkgconfig cmake
 
