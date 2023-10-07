@@ -23,14 +23,14 @@ FILES_${PN}-dev += "${includedir}"
 
 do_install() {
     install -d ${D}${includedir}
-    install -m 0755 ${S}/include/** ${D}${includedir}
+    install -m 0755 ${S}/service/include/** ${D}${includedir}
 
     install -d ${D}${bindir}
     install -m 0755 plugin-manager-service ${D}${bindir}
 
     install -d ${D}${systemd_unitdir}/system
-    install -m 0644 ${S}/systemd/plugin-manager.service ${D}${systemd_unitdir}/system
+    install -m 0644 ${S}/service/systemd/plugin-manager.service ${D}${systemd_unitdir}/system
 
     install -d ${D}/etc/plugin-manager/
-    install -m 0777 ${S}/default-config.json ${D}/etc/plugin-manager
+    install -m 0777 ${S}/service/default-config.json ${D}/etc/plugin-manager
 }
