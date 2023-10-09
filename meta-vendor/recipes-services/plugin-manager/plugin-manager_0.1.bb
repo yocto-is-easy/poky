@@ -27,7 +27,6 @@ do_install() {
 
     install -d ${D}${bindir}
     install -m 0755 plugin-manager-service ${D}${bindir}
-    install -m 0755 pm-cli ${D}${bindir}
 
     install -d ${D}${systemd_unitdir}/system
     install -m 0644 ${S}/service/systemd/plugin-manager.service ${D}${systemd_unitdir}/system
