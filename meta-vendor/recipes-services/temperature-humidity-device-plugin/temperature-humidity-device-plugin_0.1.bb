@@ -1,4 +1,4 @@
-DESCRIPTION = "Wifi manager"
+DESCRIPTION = "Temperature/Humidity plugin"
 SECTION = "examples"
 
 LICENSE = "MIT"
