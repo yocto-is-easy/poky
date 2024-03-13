@@ -7,6 +7,8 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 SRC_URI = "git://github.com/yocto-is-easy/i-plugin-manager.git;branch=master"
 SRCREV = "${AUTOREV}"
 
+S = "${WORKDIR}/git"
+
 BB_STRICT_CHECKSUM = "0"
 
 DEPENDS = "midf"
