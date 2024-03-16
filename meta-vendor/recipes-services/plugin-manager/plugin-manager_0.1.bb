@@ -32,5 +32,5 @@ do_install() {
     install -m 0644 ${S}/service/systemd/plugin-manager.service ${D}${systemd_unitdir}/system
 
     install -d ${D}/etc/plugin-manager/
-    install -m 0777 ${S}/service/default-config.json ${D}/etc/plugin-manager
+    install -m 0777 ${S}/service/config.json ${D}/etc/plugin-manager/
 }
